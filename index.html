@@ -1,563 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Pulse Planner</title>
-
-  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
-
 </head>
-
 <body>
 
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-
     <div class="container-fluid px-5">
-
-      <a class="navbar-brand fs-1 fw-bold" href="#">
-        PULSE PLANNER
-      </a>
-
-      <button class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navMenu">
-
+      <a class="navbar-brand fs-1 fw-bold" href="index.html">PULSE PLANNER</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
         <span class="navbar-toggler-icon"></span>
-
       </button>
-
       <div class="collapse navbar-collapse" id="navMenu">
-
         <ul class="navbar-nav ms-auto fs-5">
-
-          <li class="nav-item">
-            <a class="nav-link" href="#home">
-              Home
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#features">
-              Features
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#dashboard">
-              Dashboard
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#pricing">
-              Pricing
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#reviews">
-              Reviews
-            </a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">
-              Contact
-            </a>
-          </li>
-
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="business.html">Planner Setup</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
         </ul>
-
       </div>
-
     </div>
-
   </nav>
 
   <!-- HERO -->
   <section id="home" class="hero">
-
     <div class="hero-overlay"></div>
-
     <div class="hero-content container">
-
-      <h1 class="display-1 fw-bold">
-        STAY AHEAD OF EVERY DEADLINE
-      </h1>
-
+      <h1 class="display-1 fw-bold">STAY AHEAD OF EVERY DEADLINE</h1>
       <p class="lead mt-4 fs-3">
-        Pulse Planner helps students organize homework,
-        manage assignments, schedule study sessions,
+        Pulse Planner helps students organize homework, manage assignments, schedule study sessions,
         and reduce school stress with smart reminders.
       </p>
-
       <div class="mt-5">
-
-        <button class="btn btn-danger btn-lg px-5 py-3 rounded-pill fs-4 me-3">
-          Start Planning
-        </button>
-
-        <button class="btn btn-outline-light btn-lg px-5 py-3 rounded-pill fs-4">
-          Learn More
-        </button>
-
+        <a href="business.html" class="btn btn-danger btn-lg px-5 py-3 rounded-pill fs-4 me-3">Start Planning</a>
+        <a href="services.html" class="btn btn-outline-light btn-lg px-5 py-3 rounded-pill fs-4">Learn More</a>
       </div>
-
     </div>
-
   </section>
 
   <!-- FEATURES -->
   <section id="features" class="container py-5">
-
     <div class="text-center mb-5">
-
-      <h2 class="display-3 fw-bold text-danger">
-        Powerful Student Features
-      </h2>
-
-      <p class="fs-4 mt-3">
-        Everything students need to stay productive.
-      </p>
-
+      <h2 class="display-3 fw-bold text-danger">Powerful Student Features</h2>
+      <p class="fs-4 mt-3">Everything students need to stay productive.</p>
     </div>
-
     <div class="row g-5">
-
-      <!-- CARD -->
       <div class="col-lg-4">
-
         <div class="card h-100 p-4">
-
           <div class="card-body">
-
             <h1 class="display-4">📚</h1>
-
-            <h3 class="mt-3">
-              Homework Tracking
-            </h3>
-
-            <p class="mt-3 fs-5">
-              Organize assignments, due dates,
-              and projects in one place.
-            </p>
-
+            <h3 class="mt-3">Homework Tracking</h3>
+            <p class="mt-3 fs-5">Organize assignments, due dates, and projects in one place.</p>
+            <a href="services.html" class="btn btn-danger mt-3">Learn More</a>
           </div>
-
         </div>
-
       </div>
-
-      <!-- CARD -->
       <div class="col-lg-4">
-
         <div class="card h-100 p-4">
-
           <div class="card-body">
-
             <h1 class="display-4">⏰</h1>
-
-            <h3 class="mt-3">
-              Smart Reminders
-            </h3>
-
-            <p class="mt-3 fs-5">
-              Get alerts before assignments
-              and tests are due.
-            </p>
-
+            <h3 class="mt-3">Smart Reminders</h3>
+            <p class="mt-3 fs-5">Get alerts before assignments and tests are due.</p>
+            <a href="services.html" class="btn btn-danger mt-3">Learn More</a>
           </div>
-
         </div>
-
       </div>
-
-      <!-- CARD -->
       <div class="col-lg-4">
-
         <div class="card h-100 p-4">
-
           <div class="card-body">
-
             <h1 class="display-4">📅</h1>
-
-            <h3 class="mt-3">
-              Study Scheduling
-            </h3>
-
-            <p class="mt-3 fs-5">
-              Build productive schedules
-              that improve focus and grades.
-            </p>
-
+            <h3 class="mt-3">Study Scheduling</h3>
+            <p class="mt-3 fs-5">Build productive schedules that improve focus and grades.</p>
+            <a href="services.html" class="btn btn-danger mt-3">Learn More</a>
           </div>
-
         </div>
-
       </div>
-
     </div>
-
   </section>
 
-  <!-- DASHBOARD -->
-  <section id="dashboard" class="py-5">
-
-    <div class="container">
-
-      <div class="text-center mb-5">
-
-        <h2 class="display-3 text-danger fw-bold">
-          Student Dashboard
-        </h2>
-
-      </div>
-
-      <div class="row g-4">
-
-        <div class="col-md-3">
-
-          <div class="card text-center p-5">
-
-            <h1 class="display-3 text-danger">
-              12
-            </h1>
-
-            <h4>
-              Assignments
-            </h4>
-
-          </div>
-
-        </div>
-
-        <div class="col-md-3">
-
-          <div class="card text-center p-5">
-
-            <h1 class="display-3 text-danger">
-              5
-            </h1>
-
-            <h4>
-              Tests This Week
-            </h4>
-
-          </div>
-
-        </div>
-
-        <div class="col-md-3">
-
-          <div class="card text-center p-5">
-
-            <h1 class="display-3 text-danger">
-              92%
-            </h1>
-
-            <h4>
-              Productivity
-            </h4>
-
-          </div>
-
-        </div>
-
-        <div class="col-md-3">
-
-          <div class="card text-center p-5">
-
-            <h1 class="display-3 text-danger">
-              8
-            </h1>
-
-            <h4>
-              Study Hours
-            </h4>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- PRICING -->
-  <section id="pricing" class="container py-5">
-
-    <div class="text-center mb-5">
-
-      <h2 class="display-3 text-danger fw-bold">
-        Pricing Plans
-      </h2>
-
-    </div>
-
-    <div class="row g-5">
-
-      <!-- PLAN -->
-      <div class="col-lg-4">
-
-        <div class="card text-center p-5">
-
-          <h2>Basic</h2>
-
-          <h1 class="display-2 text-danger my-4">
-            $5
-          </h1>
-
-          <p class="fs-5">
-            Homework reminders
-          </p>
-
-          <p class="fs-5">
-            Daily planning
-          </p>
-
-          <button class="btn btn-danger btn-lg mt-4 rounded-pill">
-            Choose Plan
-          </button>
-
-        </div>
-
-      </div>
-
-      <!-- PLAN -->
-      <div class="col-lg-4">
-
-        <div class="card text-center p-5 border border-danger">
-
-          <h2>Premium</h2>
-
-          <h1 class="display-2 text-danger my-4">
-            $10
-          </h1>
-
-          <p class="fs-5">
-            Smart reminders
-          </p>
-
-          <p class="fs-5">
-            Study schedules
-          </p>
-
-          <p class="fs-5">
-            Productivity tracking
-          </p>
-
-          <button class="btn btn-danger btn-lg mt-4 rounded-pill">
-            Choose Plan
-          </button>
-
-        </div>
-
-      </div>
-
-      <!-- PLAN -->
-      <div class="col-lg-4">
-
-        <div class="card text-center p-5">
-
-          <h2>Ultimate</h2>
-
-          <h1 class="display-2 text-danger my-4">
-            $15
-          </h1>
-
-          <p class="fs-5">
-            Everything included
-          </p>
-
-          <p class="fs-5">
-            Priority reminders
-          </p>
-
-          <p class="fs-5">
-            Full planner dashboard
-          </p>
-
-          <button class="btn btn-danger btn-lg mt-4 rounded-pill">
-            Choose Plan
-          </button>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- REVIEWS -->
+  <!-- REVIEWS CAROUSEL -->
   <section id="reviews" class="py-5">
-
     <div class="container">
-
       <div class="text-center mb-5">
-
-        <h2 class="display-3 text-danger fw-bold">
-          Student Reviews
-        </h2>
-
+        <h2 class="display-3 text-danger fw-bold">Student Reviews</h2>
       </div>
-
-      <div id="reviewCarousel"
-        class="carousel slide"
-        data-bs-ride="carousel">
-
+      <div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-
-          <div class="carousel-item active text-center">
-
-            <h3>
-              “This planner completely changed how I manage school.”
-            </h3>
-
-            <p class="mt-3 fs-4">
-              — Sarah M.
-            </p>
-
+          <div class="carousel-item active text-center px-5">
+            <h3>"This planner completely changed how I manage school."</h3>
+            <p class="mt-3 fs-4">— Sarah M., 11th Grade</p>
           </div>
-
-          <div class="carousel-item text-center">
-
-            <h3>
-              “My grades improved because I stopped missing homework.”
-            </h3>
-
-            <p class="mt-3 fs-4">
-              — David R.
-            </p>
-
+          <div class="carousel-item text-center px-5">
+            <h3>"My grades improved because I stopped missing homework."</h3>
+            <p class="mt-3 fs-4">— David R., 10th Grade</p>
           </div>
-
-          <div class="carousel-item text-center">
-
-            <h3>
-              “The reminders help me stay productive every day.”
-            </h3>
-
-            <p class="mt-3 fs-4">
-              — Emily T.
-            </p>
-
+          <div class="carousel-item text-center px-5">
+            <h3>"The reminders help me stay productive every day."</h3>
+            <p class="mt-3 fs-4">— Emily T., 12th Grade</p>
           </div>
-
         </div>
-
+        <button class="carousel-control-prev" type="button" data-bs-target="#reviewCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#reviewCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-
     </div>
-
   </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="container py-5">
-
-    <div class="text-center mb-5">
-
-      <h2 class="display-3 text-danger fw-bold">
-        Contact Us
-      </h2>
-
+  <!-- CTA STRIP -->
+  <section class="py-5 text-center" style="background: rgba(255,0,0,0.12); border-top: 1px solid rgba(255,0,0,0.3); border-bottom: 1px solid rgba(255,0,0,0.3);">
+    <div class="container">
+      <h2 class="display-4 fw-bold">Ready to Take Control of Your Schedule?</h2>
+      <p class="fs-4 mt-3">Join thousands of students who plan smarter with Pulse Planner.</p>
+      <a href="business.html" class="btn btn-danger btn-lg px-5 py-3 rounded-pill fs-4 mt-4">Get Started Today</a>
     </div>
-
-    <div class="row g-5">
-
-      <!-- FORM -->
-      <div class="col-lg-6">
-
-        <form>
-
-          <input type="text"
-            class="form-control form-control-lg"
-            placeholder="Your Name"
-            required>
-
-          <input type="email"
-            class="form-control form-control-lg"
-            placeholder="Email Address"
-            required>
-
-          <textarea rows="6"
-            class="form-control form-control-lg"
-            placeholder="Message"></textarea>
-
-          <button class="btn btn-danger btn-lg w-100 mt-4 rounded-pill">
-            Send Message
-          </button>
-
-        </form>
-
-      </div>
-
-      <!-- INFO -->
-      <div class="col-lg-6">
-
-        <div class="card p-5 h-100">
-
-          <h2 class="text-danger">
-            Pulse Planner Support
-          </h2>
-
-          <p class="fs-4 mt-4">
-            📧 support@pulseplanner.com
-          </p>
-
-          <p class="fs-4">
-            📞 (555) 123-4567
-          </p>
-
-          <p class="fs-4">
-            📍 New York, NY
-          </p>
-
-          <hr>
-
-          <h4>
-            Student Success Starts Here.
-          </h4>
-
-        </div>
-
-      </div>
-
-    </div>
-
   </section>
 
   <!-- FOOTER -->
   <footer class="text-center py-4">
-
-    <h3 class="text-danger">
-      Pulse Planner
-    </h3>
-
+    <h3 class="text-danger">Pulse Planner</h3>
     <p>
-      Homework Reminder & Student Planner Platform
+      <a href="index.html" class="text-white me-3">Home</a>
+      <a href="about.html" class="text-white me-3">About</a>
+      <a href="services.html" class="text-white me-3">Services</a>
+      <a href="business.html" class="text-white me-3">Planner Setup</a>
+      <a href="contact.html" class="text-white">Contact</a>
     </p>
-
-    <p>
-      © 2026 All Rights Reserved
-    </p>
-
+    <p>📧 support@pulseplanner.com &nbsp;|&nbsp; 📞 (555) 123-4567</p>
+    <p>© 2026 Pulse Planner. All Rights Reserved.</p>
   </footer>
 
-  <!-- Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
-
 </html>
